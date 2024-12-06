@@ -252,10 +252,9 @@ and emission characteristics of a micro‐rotary cam internal combustion engine 
     const AnalysisCount = displayWordCount("Introduction_InText");
      const MainCount = displayWordCount("Main_InText");
      const ImpactsCount = displayWordCount("Impacts_InText");
-     const AbstractCount = displayWordCount("Abstract_InText");
    
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount + MainCount + ImpactsCount + AbstractCount;
+    const totalWordCount = IntroductionCount + AnalysisCount + MainCount + ImpactsCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
